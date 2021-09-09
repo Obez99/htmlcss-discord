@@ -2,4 +2,86 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
 }
+
+* div[class*="col"]{
+    float:left;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+header{
+    background-image: url(../img/jumbo.png);
+    padding-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    width: 1600px;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+/*Column width*/
+/*********************************/
+.col1_6{
+    width: calc(100% / 6);
+}
+
+.col2_6{
+    width: calc(100% / 6 * 2);
+}
+
+.col4_6{
+    width: calc(100% / 6 * 4);
+}
+/*********************************/
+
+/*Classes*/
+/*********************************/
+
+.hero-list li{
+    display:inline-block;
+}
+
+.hero-list li>a{
+    padding:10px 20px;
+
+}
+
+.hero-list{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn{
+    border-radius: 20px;
+    width: auto;
+    background-color: white;
+}
+
+.btn a{
+    color:black;
+    padding: 0 20px;
+}
+.hero-image>img{
+    width: 150px;
+    object-fit: cover;
+}
+
