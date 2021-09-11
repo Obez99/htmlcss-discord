@@ -3,7 +3,6 @@
     padding:0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
-    text-transform: capitalize;
 }
 
 * div[class*="col"]{
@@ -19,7 +18,8 @@
 
 header{
     background-image: url(../img/jumbo.png);
-    padding-top: 20px;
+    background-size: cover;
+    background-position:top;
 }
 
 ul{
@@ -32,11 +32,40 @@ a{
 }
 
 nav{
-    width: 1600px;
-    margin: 0 auto;
-    font-weight: bold;
+    font-size: 14px;
     line-height: 45px;
 }
+
+h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+p{
+    line-height: 35px;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.hero-list li{
+    display:inline-block;
+}
+
+.hero-list li>a{
+    padding:10px 20px;
+
+}
+
+.hero-image>img{
+    width: 200px;
+    object-fit: cover;
+}
+
+.hero-info :nth-child(4){
+    background-color: rgb(36, 39, 44);
+    color:white;
+}
+
 
 /*Column width*/
 /*********************************/
@@ -56,13 +85,14 @@ nav{
 /*Classes*/
 /*********************************/
 
-.hero-list li{
-    display:inline-block;
-}
-
-.hero-list li>a{
-    padding:10px 20px;
-
+.hero-container{
+    width: 1600px;
+    margin: 0 auto;
+    font-weight: bold;
+    min-height: 700px;
+    position: relative;
+    color:white;
+    padding-top: 20px;
 }
 
 .hero-list{
@@ -70,18 +100,24 @@ nav{
     vertical-align: middle;
 }
 
+.hero-info{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .btn{
-    border-radius: 20px;
-    width: auto;
+    border-radius: 30px;
     background-color: white;
-}
-
-.btn a{
     color:black;
-    padding: 0 20px;
-}
-.hero-image>img{
-    width: 150px;
-    object-fit: cover;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 20px;
 }
 
+.btn-small{
+    padding: 10px 15px;
+    font-size: 14px;
+}
