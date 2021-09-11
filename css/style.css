@@ -56,7 +56,7 @@ p{
 
 }
 
-.hero-image>img{
+.hero-image a>img{
     width: 200px;
     object-fit: cover;
 }
