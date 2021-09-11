@@ -36,15 +36,21 @@ nav{
     line-height: 45px;
 }
 
+h1, h3{
+    padding-bottom: 50px;
+}
 
 h1{
     font-size: 70px;
-    padding-bottom: 50px;
 }
 
 h2{
     font-size: 50px;
     padding-bottom: 20px;
+}
+
+h3{
+    font-size:30px;
 }
 
 p{
@@ -72,21 +78,23 @@ p{
     color:white;
 }
 
-section:nth-of-type(odd) .section-content>div{
+section:nth-of-type(odd) .section-content.small-section>div{
     float:right;
 }
 
-section:nth-of-type(even) .section-content>div{
+section:nth-of-type(even) .section-content.small-section>div{
     float:left;
 }
 
-section:nth-of-type(even) .section-content .section-image{
+section:nth-of-type(even) .section-content.small-section .section-image{
     text-align: end;
 }
 
 section:nth-of-type(even){
     background-color: rgb(231, 231, 231);
 }
+
+
 /*Column width*/
 /*********************************/
 .col1_6{
@@ -99,6 +107,10 @@ section:nth-of-type(even){
 
 .col4_6{
     width: calc(100% / 6 * 4);
+}
+
+.col6_6{
+    width: 100%;
 }
 /*********************************/
 
@@ -142,6 +154,10 @@ section:nth-of-type(even){
     font-size: 14px;
 }
 
+.btn-purple{
+    background-color:rgb(143, 161, 227);
+    color:white;
+}
 .section-content{
     width: 1400px;
     margin: 0 auto;
@@ -151,4 +167,8 @@ section:nth-of-type(even){
 
 .section-text{
     text-align: left;
+}
+
+.large-img{
+    width:100%;
 }
