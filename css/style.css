@@ -78,6 +78,9 @@ section:nth-of-type(odd) .section-content>div{
 
 section:nth-of-type(even) .section-content>div{
     float:left;
+}
+
+section:nth-of-type(even) .section-content .section-image{
     text-align: end;
 }
 
@@ -144,4 +147,8 @@ section:nth-of-type(even){
     margin: 0 auto;
     padding:200px 0;
     color: rgb(36, 39, 44);
+}
+
+.section-text{
+    text-align: left;
 }
