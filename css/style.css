@@ -36,6 +36,11 @@ nav{
     line-height: 45px;
 }
 
+main{
+    width: 1600px;
+    margin:0 auto;
+}
+
 h1{
     font-size: 60px;
     padding-bottom: 50px;
@@ -89,7 +94,7 @@ p{
     width: 1600px;
     margin: 0 auto;
     font-weight: bold;
-    min-height: 700px;
+    min-height: 900px;
     position: relative;
     color:white;
     padding-top: 20px;
