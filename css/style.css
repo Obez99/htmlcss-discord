@@ -36,10 +36,6 @@ nav{
     line-height: 45px;
 }
 
-main{
-    width: 1400px;
-    margin:0 auto;
-}
 
 h1{
     font-size: 70px;
@@ -76,11 +72,18 @@ p{
     color:white;
 }
 
-.section-content:nth-of-type(odd) div{
+section:nth-of-type(odd) .section-content>div{
     float:right;
 }
 
+section:nth-of-type(even) .section-content>div{
+    float:left;
+    text-align: end;
+}
 
+section:nth-of-type(even){
+    background-color: rgb(231, 231, 231);
+}
 /*Column width*/
 /*********************************/
 .col1_6{
@@ -137,6 +140,8 @@ p{
 }
 
 .section-content{
+    width: 1400px;
+    margin: 0 auto;
     padding:200px 0;
     color: rgb(36, 39, 44);
 }
