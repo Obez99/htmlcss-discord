@@ -42,12 +42,9 @@ nav{
     line-height: 45px;
 }
 
-h1, h3{
-    padding-bottom: 50px;
-}
-
 h1{
     font-size: 70px;
+    padding-bottom: 50px;
 }
 
 h2{
@@ -59,18 +56,11 @@ h3{
     font-size:25px;
 }
 
+
 p{
     line-height: 35px;
     font-size: 25px;
     padding-bottom: 40px;
-}
-
-footer{
-    background-color: rgb(36, 39, 44) ;
-}
-
-figcaption{
-    display: inline-block;
 }
 
 .hero-list li{
@@ -112,6 +102,42 @@ section:last-child{
     text-align: center;
 }
 
+footer{
+    background-color: rgb(36, 39, 44) ;
+    color:white;
+    line-height: 30px;
+    padding-top:65px;
+}
+
+footer h3,h4{
+    color: rgb(117, 136, 219)
+}
+
+footer h3{
+    padding-bottom: 20px;
+}
+
+figure img{
+    width:20px;
+    vertical-align: middle;
+}
+figcaption{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+figure{
+    padding-bottom: 20px;
+}
+
+figure a{
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.social-media-buttons a{
+    margin-right: 20px;
+}
 
 /*************************************************/
 
@@ -202,16 +228,24 @@ section:last-child{
 
 .bottom-title{
     position:relative;
+    padding-bottom: 60px;
 }
 
 .bottom-stars{
     position:absolute;
-    left:50%;
+    display:inline;
     transform: translateX(-50%);
-    bottom:60px;
+    bottom:70px;
 }
 
+.upper-footer-container{
+    width: 1400px;
+    margin:auto;
+    border-bottom: 1px solid rgb(117, 136, 219);
+    padding-bottom: 20px;
+}
 .footer-list{
     float:left;
-    
+    padding-left:20%;
+
 }
