@@ -156,7 +156,7 @@ figure a{
 
 /*Hover transitions*/
 /************************************************/
-li:hover{
+li a:hover{
     text-decoration: underline;
 }
 
