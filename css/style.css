@@ -77,11 +77,6 @@ p{
     object-fit: cover;
 }
 
-.hero-info :nth-child(4){
-    background-color: rgb(36, 39, 44);
-    color:white;
-    margin-left: 30px;
-}
 
 section{
     position:relative;
@@ -159,6 +154,33 @@ figure a{
 
 
 
+/*Hover transitions*/
+/************************************************/
+li:hover{
+    text-decoration: underline;
+}
+
+.btn-white:hover{
+    color: rgb(117, 136, 219) ;
+}
+
+
+.btn-black:hover{
+    background-color: rgb(58, 60, 65);
+}
+
+.btn-purple:hover{
+    background-color:rgb(166, 179, 226);
+}
+
+.btn:hover{
+    box-shadow: 3px 3px 30px rgb(58, 60, 65);
+}
+
+
+/***********************************************/
+
+
 
 /*Column width*/
 /*********************************/
@@ -222,10 +244,23 @@ figure a{
     font-size: 14px;
 }
 
+.btn-white{
+    transition: color 0.3s, box-shadow 0.5s;
+}
+
 .btn-purple{
     background-color:rgb(143, 161, 227);
     color:white;
+    transition: background-color 0.5s, box-shadow 0.5s;
 }
+
+.btn-black{
+    background-color: rgb(36, 39, 44);
+    color:white;
+    margin-left: 20px;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
 .section-content{
     width: 1400px;
     margin: 0 auto;
