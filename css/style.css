@@ -83,6 +83,10 @@ p{
     margin-left: 30px;
 }
 
+section{
+    position:relative;
+}
+
 section:nth-of-type(odd) .section-content.small-section>div{
     float:right;
 }
@@ -145,6 +149,11 @@ figure a{
 
 .bottom-footer-container div:nth-child(2){
     float:right;
+}
+
+.section-wave:nth-of-type(even){
+    top:-55px;
+    transform: rotate(180deg);
 }
 /*************************************************/
 
@@ -222,6 +231,7 @@ figure a{
     margin: 0 auto;
     padding:150px 0;
     color: rgb(36, 39, 44);
+    padding: 200px 0;
 }
 
 .small-section-text{
@@ -265,3 +275,7 @@ figure a{
     padding-bottom: 70px;
 }
 
+.section-wave{
+    position:absolute;
+    bottom:-55px;
+}
