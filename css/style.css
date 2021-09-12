@@ -80,6 +80,7 @@ p{
 .hero-info :nth-child(4){
     background-color: rgb(36, 39, 44);
     color:white;
+    margin-left: 30px;
 }
 
 section:nth-of-type(odd) .section-content.small-section>div{
@@ -115,6 +116,8 @@ footer h3,h4{
 
 footer h3{
     padding-bottom: 20px;
+    font-size: 42px;
+    line-height: 50px;
 }
 
 figure img{
@@ -137,8 +140,12 @@ figure a{
 
 .social-media-buttons a{
     margin-right: 20px;
+    font-size: 20px;
 }
 
+.bottom-footer-container div:nth-child(2){
+    float:right;
+}
 /*************************************************/
 
 
@@ -199,7 +206,6 @@ figure a{
     color:black;
     font-size: 18px;
     padding: 15px 20px;
-    margin: 20px;
 }
 
 .btn-small{
@@ -238,14 +244,24 @@ figure a{
     bottom:70px;
 }
 
-.upper-footer-container{
+.upper-footer-container, .bottom-footer-container{
     width: 1400px;
     margin:auto;
+}
+
+.upper-footer-container{
     border-bottom: 1px solid rgb(117, 136, 219);
     padding-bottom: 20px;
 }
+
 .footer-list{
     float:left;
     padding-left:20%;
 
 }
+
+.bottom-footer-container{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
